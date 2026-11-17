@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Example 21: A Name Is Not Authentication</title>
+  <desc id="description">Example 21: CHAT IS NOT IDENTITY; UNTRUSTED TOOL INPUT; MISSING AUTHORIZATION.</desc>
+  <defs>
+    <linearGradient id="visug-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="visug-glow-indigo" cx="384" cy="-108" r="1100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity=".28"/>
+      <stop offset=".6" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="visug-glow-cyan" cx="1728" cy="108" r="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity=".16"/>
+      <stop offset=".55" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="visug-glow-green" cx="576" cy="1188" r="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22c55e" stop-opacity=".09"/>
+      <stop offset=".55" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&amp;family=Raleway:wght@400;500;600;700;800&amp;display=swap");
+      text { text-rendering: geometricPrecision; }
+      .display { font-family: Raleway, sans-serif; font-weight: 800; letter-spacing: -0.01em; }
+      .body { font-family: Raleway, sans-serif; }
+      .mono { font-family: "Geist Mono", monospace; }
+    </style>
+  </defs>
+  <rect width="1920" height="1080" fill="#0b1020"/>
+  <rect width="1920" height="1080" fill="url(#visug-glow-indigo)"/>
+  <rect width="1920" height="1080" fill="url(#visug-glow-cyan)"/>
+  <rect width="1920" height="1080" fill="url(#visug-glow-green)"/>
+  <rect x="0" y="0" width="14" height="1080" fill="url(#visug-bar)"/>
+
+  <text x="88" y="86" fill="#818cf8" class="mono" font-size="30" letter-spacing="3"><tspan fill="#06b6d4">&gt;&gt;</tspan> EXAMPLE 21</text>
+  <svg x="1676" y="53" width="156" height="39.796" viewBox="0 0 98 25" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" style="color:#ffffff"><g clip-path="url(#clip0_6865_14026)">
+        <mask id="mask0_6865_14026" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="98" height="25">
+        <path d="M97.7195 0.5H0.279297V24.5H97.7195V0.5Z" fill="white"></path>
+        </mask>
+        <g mask="url(#mask0_6865_14026)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.88759 0.5H40.4611L36.3204 15.9534C36.0933 16.8002 36.8757 17.4876 37.944 17.4876C39.0123 17.4876 39.9643 16.8002 40.1914 15.9534L44.3326 0.5H53.1805L49.0397 15.9534C47.7758 20.6702 44.0182 24.5 37.2414 24.5C30.4647 24.5 26.2092 20.6707 27.4731 15.9534L31.6138 0.5L13.7895 15.4561H26.2823L23.9922 24.0027H0.280273L18.1045 9.04661H5.59803L7.88759 0.5ZM91.4228 24.0027H72.6212L78.9183 0.5H97.72L96.0024 6.90996H86.0486L85.4761 9.04661H94.324L92.6064 15.4566H83.7586L83.1861 17.5932H93.1398L91.4223 24.0032L91.4228 24.0027ZM67.9475 0.5C72.831 0.5 75.4832 5.39764 74.2193 10.1149C73.5096 12.7631 71.7159 14.7946 69.4152 16.0672L72.6212 24.0027H62.9727L61.2551 17.5927H59.4969L57.7794 24.0027H48.9315L55.2287 0.5H67.9475ZM64.0182 6.90996C65.2389 6.90996 65.9734 7.86754 65.6575 9.04661C65.3415 10.2257 64.0938 11.1833 62.8731 11.1833H61.214L62.359 6.90996H64.0182Z" fill="currentColor"></path>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_6865_14026">
+        <rect width="97.4407" height="24" fill="white" transform="translate(0.279297 0.5)"></rect>
+        </clipPath>
+    </defs></svg>
+  <line x1="88" y1="120" x2="1832" y2="120" stroke="#2b3352" stroke-width="2"/>
+
+  <g id="slide-content">
+    <text x="88" y="235" fill="#ffffff" class="display" font-size="68">A Name Is Not Authentication</text>
+    <text x="88" y="300" fill="#b6bccd" class="body" font-size="26">An identity claimed in chat cannot authorize access to private data.</text>
+
+    <g aria-label="Example 21 steps">
+      <g aria-label="CHAT IS NOT IDENTITY">
+        <rect x="88" y="360" width="528" height="326" rx="8" fill="#161c33" stroke="#2b3352" stroke-width="2"/>
+        <rect x="88" y="360" width="528" height="6" fill="#818cf8"/>
+        <path d="M324 402v62m-27-35h54m-47-20 40 40m0-40-40 40" fill="none" stroke="#818cf8" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="324" cy="433" r="10" fill="#06b6d4"/>
+        <text x="120" y="520" fill="#818cf8" class="mono" font-size="21" letter-spacing="1.5">1 / CHAT IS NOT IDENTITY</text>
+        <text x="120" y="566" fill="#ffffff" class="body" font-size="20">A user can type any name into chat.</text>
+        <text x="120" y="610" fill="#ffffff" class="body" font-size="20">A model cannot verify that claim.</text>
+        <text x="120" y="654" fill="#ffffff" class="body" font-size="20">Instructions do not authenticate a user.</text>
+      </g>
+      <g aria-label="UNTRUSTED TOOL INPUT">
+        <rect x="696" y="360" width="528" height="326" rx="8" fill="#161c33" stroke="#2b3352" stroke-width="2"/>
+        <rect x="696" y="360" width="528" height="6" fill="#06b6d4"/>
+        <rect x="920" y="404" width="80" height="56" rx="5" fill="none" stroke="#06b6d4" stroke-width="4"/>
+        <path d="m943 420 18 12-18 12m26 0h14" fill="none" stroke="#818cf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="728" y="520" fill="#06b6d4" class="mono" font-size="21" letter-spacing="1.5">2 / UNTRUSTED TOOL INPUT</text>
+        <text x="728" y="566" fill="#ffffff" class="body" font-size="20">The model supplies userName to a tool.</text>
+        <text x="728" y="610" fill="#ffffff" class="body" font-size="20">The tool trusts the supplied name.</text>
+        <text x="728" y="654" fill="#ffffff" class="body" font-size="20">Anyone can claim another snack owner.</text>
+      </g>
+      <g aria-label="MISSING AUTHORIZATION">
+        <rect x="1304" y="360" width="528" height="326" rx="8" fill="#161c33" stroke="#2b3352" stroke-width="2"/>
+        <rect x="1304" y="360" width="528" height="6" fill="#818cf8"/>
+        <path d="M1528 406a30 30 0 1 1-21 9m-8-9v18h18m11 0v-18m-9 9 9 9 9-9" fill="none" stroke="#818cf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="1336" y="520" fill="#818cf8" class="mono" font-size="21" letter-spacing="1.5">3 / MISSING AUTHORIZATION</text>
+        <text x="1336" y="566" fill="#ffffff" class="body" font-size="20">No verified identity binds the request.</text>
+        <text x="1336" y="610" fill="#ffffff" class="body" font-size="20">The tool can expose someone else&apos;s data.</text>
+        <text x="1336" y="654" fill="#ffffff" class="body" font-size="20">This is intentionally unsafe behavior.</text>
+      </g>
+      <text x="88" y="758" fill="#818cf8" class="mono" font-size="18" letter-spacing="2">SOURCE CODE</text>
+      <text x="88" y="798" fill="#ffffff" class="body" font-size="25">examples\example-21</text>
+    </g>
+    <text x="88" y="961" fill="#818cf8" class="mono" font-size="16">SOURCE</text>
+    <a href="https://github.com/Djohnnie/TheMicrosoftAgentFramework-VisugXL-2026" target="_blank" rel="noopener noreferrer">
+      <text x="164" y="961" fill="#b6bccd" class="mono" font-size="16">https://github.com/Djohnnie/TheMicrosoftAgentFramework-VisugXL-2026</text>
+    </a>
+  </g>
+
+  <line x1="88" y1="980" x2="1832" y2="980" stroke="#2b3352" stroke-width="2"/>
+  <a href="https://github.com/Djohnnie/TheMicrosoftAgentFramework-VisugXL-2026">
+    <text x="88" y="1054" fill="#818cf8" class="mono" font-size="14">https://github.com/Djohnnie/TheMicrosoftAgentFramework-VisugXL-2026</text>
+  </a>
+  <svg x="850" y="1009.53" width="760" height="70.47" viewBox="0 0 760 70.47" fill="none" aria-label="VISUGXL 2026">
+    <text x="380" y="98" text-anchor="middle" textLength="740" lengthAdjust="spacingAndGlyphs" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linejoin="round" font-family="Raleway, sans-serif" font-weight="800" font-size="104" letter-spacing="6">VISUGXL ’26</text>
+  </svg>
+  <text x="1832" y="1054" fill="#818cf8" text-anchor="end" class="mono" font-size="15" letter-spacing="2">41 / 48</text>
+</svg>
